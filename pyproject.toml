@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "example-fastapi"
+version = "0.1.0"
+description = "Example of FastApi according to my experience."
+authors = ["Miguel Ángel García Flores <miguelangelgarciafloresti@gmail.com>"]
+license = "Creative Commons Zero v1.0 Universal"
+readme = "README.md"
+packages = [{include = "example_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.85.0"
+uvicorn = "^0.18.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
